@@ -9,6 +9,11 @@ li {
     margin-right: 1px;
 }
 
+#header {
+    height: 1200px;
+	background: linear-gradient(115deg, lightblue, purple);
+    background-size: cover;
+}
 
 /***** BASE STYLES *****/
 
@@ -128,6 +133,7 @@ header h2 span {
     line-height: 32px;
     width: 190px;
     margin: 0 auto;
+    color: white;
 }
  
 #work p {
@@ -135,13 +141,19 @@ header h2 span {
     font-size: 18px;
     line-height: 30px;
     padding: 0 50px;
+    color: lavender;
 }
 
 
 /***** CONTACT SECTION *****/
 
-#contact {
-    background-color: lightgrey;
+.padding {
+    padding: 100px;
+}
+
+#contact-img {
+    height: 400px;
+    width: 400px;
 }
 
 #contact .full-width {
@@ -150,7 +162,7 @@ header h2 span {
 
 #contact img#contact-img {
     margin-left: 25px;
-    border: 12px solid #ffffff;
+    border: 12px solid purple;
 }
 
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
@@ -168,18 +180,19 @@ header h2 span {
 #contact #email-header{
     font-size: 32px;
     font-weight: 400;
-    line-height: 44px;
+    line-height: 40px;
     margin: -30px 0 5px 0;
 }
 #contact #socialmedia-header {
     font-weight: bold;
-    font-size:  29px;
+    font-size:  30px;
     line-height: 44px;
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
 }
 #contact a {
+    font-family: 'Lora', serif;
     text-decoration: none;
-    color: #C49075;
+    color: #2B2B2B;
     font-weight: bold;
     font-size: 28px;
 }
@@ -193,4 +206,5 @@ header h2 span {
 #contact ul img {
     font-size: 32px;
     padding-right: 48px;
+    padding-top: 12px;
 }
